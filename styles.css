@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(https://free4kwallpapers.com/uploads/originals/2019/04/19/nice-weather-amp-river-views-wallpaper.jpg);
+    background-size: 100% 100vh;
+  }
+  
+  .weather-widget {
+    width: 300px;
+    background-color: #ffffffc7;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+  }
+  
+  input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .weather-info {
+    display: none;
+    margin-top: 20px;
+  }
+  
+  .weather-widget.active .weather-info {
+    display: block;
+  }
+  
+  .location {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .temperature {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    font-size: 16px;
+  }
+  
+  .icon {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    margin: 0 auto;
+  }
+  
